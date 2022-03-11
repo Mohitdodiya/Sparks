@@ -1,0 +1,44 @@
+.top-container {
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+    margin-top: 170px;
+    margin-left: 120px;
+    margin-right: 830px;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 130px;
+        margin-top: 80px;
+    }
+
+    
+}
+
+.subheading {
+    color:black;
+    margin-left: 120px;
+    margin-right: 840px;
+}
+
+
+.button {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.nav-item active{
+    background-size: cover;
+}
